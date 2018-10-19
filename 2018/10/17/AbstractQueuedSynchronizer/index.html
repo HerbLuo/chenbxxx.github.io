@@ -69,7 +69,7 @@
 
 
 
-  <meta name="keywords" content="source_code,juc," />
+  <meta name="keywords" content="juc," />
 
 
 
@@ -83,14 +83,14 @@
 
 
 <meta name="description" content="AbstractQueuedSynchronizer 提供了一个非阻塞的FIFO队列（在操作插入或删除元素时，并发条件下不会阻塞，而是通过自旋锁和CAS保证操作的原子性），可以用于构造锁和基本同步器的基础框架，是JUC中几乎所有锁的基础。 FIFO队列底层中通过head和tail维护一个以内部类Node为元素的类LCH队列，称之为同步队列 除此之外使用内部类ConfitionObject实现一个等">
-<meta name="keywords" content="source_code,juc">
+<meta name="keywords" content="juc">
 <meta property="og:type" content="article">
 <meta property="og:title" content="AbstractQueuedSynchronizer">
 <meta property="og:url" content="http://yoursite.com/2018/10/17/AbstractQueuedSynchronizer/index.html">
 <meta property="og:site_name" content="CheNbXxx">
 <meta property="og:description" content="AbstractQueuedSynchronizer 提供了一个非阻塞的FIFO队列（在操作插入或删除元素时，并发条件下不会阻塞，而是通过自旋锁和CAS保证操作的原子性），可以用于构造锁和基本同步器的基础框架，是JUC中几乎所有锁的基础。 FIFO队列底层中通过head和tail维护一个以内部类Node为元素的类LCH队列，称之为同步队列 除此之外使用内部类ConfitionObject实现一个等">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-10-17T13:20:19.804Z">
+<meta property="og:updated_time" content="2018-10-19T14:16:14.246Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="AbstractQueuedSynchronizer">
 <meta name="twitter:description" content="AbstractQueuedSynchronizer 提供了一个非阻塞的FIFO队列（在操作插入或删除元素时，并发条件下不会阻塞，而是通过自旋锁和CAS保证操作的原子性），可以用于构造锁和基本同步器的基础框架，是JUC中几乎所有锁的基础。 FIFO队列底层中通过head和tail维护一个以内部类Node为元素的类LCH队列，称之为同步队列 除此之外使用内部类ConfitionObject实现一个等">
@@ -509,8 +509,6 @@
       
         <div class="post-tags">
           
-            <a href="/tags/source-code/" rel="tag"><i class=fafa-tag"></i> source_code</a>
-          
             <a href="/tags/juc/" rel="tag"><i class=fafa-tag"></i> juc</a>
           
         </div>
@@ -520,22 +518,6 @@
       
       
 
-      
-        <div class="post-nav">
-          <div class="post-nav-next post-nav-item">
-            
-              <a href="/2018/10/17/java/" rel="next" title="java">
-                <i class="fa fa-chevron-left"></i> java
-              </a>
-            
-          </div>
-
-          <span class="post-nav-divider"></span>
-
-          <div class="post-nav-prev post-nav-item">
-            
-          </div>
-        </div>
       
 
       
@@ -609,7 +591,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-count">1</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -619,10 +601,10 @@
               
               
               <div class="site-state-item site-state-categories">
-                
+                <a href="/categories/index.html">
                   <span class="site-state-item-count">1</span>
                   <span class="site-state-item-name">categories</span>
-                
+                </a>
               </div>
             
 
@@ -631,7 +613,7 @@
               
               <div class="site-state-item site-state-tags">
                 
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">1</span>
                   <span class="site-state-item-name">tags</span>
                 
               </div>
